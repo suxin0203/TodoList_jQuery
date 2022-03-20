@@ -1,4 +1,4 @@
-# TodoList_jq
+# TodoList_jQuery
 
 ## > TodoList 项目案例（jQuery+Bootstarp）
 ## > 该项目利用本地存储实现便签的功能
