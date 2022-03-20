@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodList</title>
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js/bootstrap.min.js"></script>
+
+    <script src="./js/todlist.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">TodList-今日便签</a>
+            </div>
+
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="http://www.suxin23.cn/">首页</a></li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    <div class="pag" style="width: 60%;margin:  0 auto;">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div id="bs-example-navbar-collapse-1">
+                    <form class="navbar-form">
+                        <div style="float: left; width: 90%;">
+                            <input style="width: 95%;" type="text" class="form-control" id="addlist"
+                                placeholder="添加新的便签...">
+                        </div>
+                        <button style="float: right" type="button" class="btn btn-info" id="add">添加</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <div class="ove">
+            <ul class="list-group">
+                <li class="list-group-item" style="background-color: pink;">
+                    <span class="badge" id="tdnum">0</span>
+                    待办事件
+                </li>
+            </ul>
+            <ul class="list-group" id="td">
+                <li class="list-group-item">
+                    <input type="checkbox" name="checkbox" value="" />
+                    <span class="badge">删除</span>
+                    hello
+                </li>
+                <!-- <li class="list-group-item">
+                    <input type="checkbox" name="" value="" />
+                    <span class="badge">删除</span>
+                    world
+                </li> -->
+            </ul>
+        </div>
+        <div class="will">
+            <ul class="list-group">
+                <li class="list-group-item" style="background-color: lightslategray;color: aliceblue;">
+                    <span class="badge" id="donum">0</span>
+                    已办事件
+                </li>
+            </ul>
+            <ul class="list-group" id="do">
+                <li class="list-group-item" style="background-color: beige;">
+                    <input type="checkbox" name="checkbox" value="" checked="checked" />
+                    <span class="badge">删除</span>
+                    hello
+                </li>
+
+
+            </ul>
+        </div>
+
+    </div>
+    <footer>
+        by : suxin
+    </footer>
+
+
+</body>
+<script>
+
+</script>
+
+</html>
