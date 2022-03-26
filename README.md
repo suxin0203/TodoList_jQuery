@@ -5,4 +5,4 @@
 
 ### 3.20 更新并解决 bs 在 jq 前引入引发的报错 删除 bs.map 注释
 
-测试连接 https://suxin0203.github.io/TodoList_jq/
+测试连接 https://suxin0203.github.io/TodoList_jQuery/
